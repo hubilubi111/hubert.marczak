@@ -1,0 +1,7 @@
+password_hash() - Tworzy zaszyfrowany hash hasła z wykorzystaniem algorytmów takich jak bcrypt, argon2i czy argon2id.
+
+password_verify() - Porównuje podane hasło z hashem, aby sprawdzić poprawność.
+
+hash() - Funkcja generuje hash danych przy użyciu różnych algorytmów, takich jak SHA256, SHA512.
+
+Salting - Dodanie unikalnej wartości (soli) do każdego hasła przed jego zahashowaniem. password_hash() automatycznie dodaje sól do hasła.
